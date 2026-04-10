@@ -24,7 +24,7 @@ function App() {
   return (
     
       <>
-      <NavBar/>
+      <NavBar  cartCount={carts.length}/>
       <Banner/>
       <StatsSection/>
      <div className="text-center mt-10 mb 10">
