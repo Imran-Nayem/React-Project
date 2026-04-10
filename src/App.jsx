@@ -8,7 +8,7 @@ import Footer from "./component/Footer";
 import Cart from "./component/Cart";
 import { ToastContainer } from 'react-toastify';
 import Pricing from "./component/Pricing";
-import Steps from "./component/steps";
+import Steps from "./component/Steps";
 
 const getModels = async () => {
   const res = await fetch("/models.json");
