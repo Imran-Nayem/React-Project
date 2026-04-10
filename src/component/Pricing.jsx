@@ -14,10 +14,10 @@ const Pricing = () => {
             <li> ✔ Community support </li>
       </ul>
 
-      <button className="mt-6 w-full border py-2 rounded-lg hover:bg-gray-100"> Get Started </button>
+      <button className="mt-6 w-full border py-2 rounded-lg bg-gradient-to-r from-violet-600 to-purple-700 text-white hover:bg-gray-100"> Get Started </button>
       </div>
 
-     <div className="p-8 rounded-2xl bg-blue-600 text-white shadow-lg scale-105">
+     <div className="p-8 rounded-2xl bg-gradient-to-r from-violet-600 to-purple-700 text-white shadow-lg scale-105">
         <p className="bg-white text-blue-600 text-xs px-3 py-1 rounded-full inline-block mb-2"> Most Popular </p>
         <h3 className="text-xl font-bold"> Pro </h3>
         <p className="text-3xl font-bold mt-4"> $29 <span className="text-sm"> /month </span> </p>
@@ -26,7 +26,7 @@ const Pricing = () => {
             <li> ✔ Unlimited templates </li>
             <li> ✔ Priority support </li>
            </ul>
-      <button className="mt-6 w-full bg-white text-blue-600 py-2 rounded-lg hover:bg-gray-100"> Start Trial </button>
+      <button className="mt-6 w-full  text-black py-2 rounded-lg bg-white hover:bg-pink-600"> Start Trial </button>
       </div>
 
      <div className="p-8 rounded-2xl border hover:shadow-lg transition">
@@ -37,7 +37,7 @@ const Pricing = () => {
             <li> ✔ Custom integrations </li>
             <li> ✔ Dedicated support </li>
           </ul>
-          <button className="mt-6 w-full border py-2 rounded-lg hover:bg-gray-100"> Contact Sales </button>
+          <button className="mt-6 w-full border py-2 rounded-lg bg-gradient-to-r from-violet-600 to-purple-700 text-white hover:bg-gray-100"> Contact Sales </button>
      </div>
 
     </div>

@@ -1,9 +1,11 @@
 const NavBar = () => {
   return (
-    <div className="navbar border-b">
+    <div className="navbar border-b max-w-7xl mx-auto">
       <div className="navbar-start">
         <div className="flex items-center gap-1 font-bold text-xl">
-          <p>Ai hublo</p>
+          <p className=" text-purple-600 px-3 py-2 ">
+            AI WORLD
+          </p>
         </div>
       </div>
       <div className="navbar-center  md:flex">
