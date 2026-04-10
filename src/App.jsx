@@ -6,7 +6,8 @@ import StatsSection from "./component/StatsSection";
 import Models from "./component/Models";
 import Footer from "./component/Footer";
 import Cart from "./component/Cart";
-import { ToastContainer } from 'react-toastify'
+import { ToastContainer } from 'react-toastify';
+import Pricing from "./component/Pricing";
 
 const getModels = async () => {
   const res = await fetch("/models.json");
@@ -48,6 +49,7 @@ function App() {
       {activeTab === "model" && <Models modelPromise={modelPromise} carts={carts} setCarts={setCarts}/>}
 
       {activeTab === "cart" && <Cart  carts={carts} setCarts={setCarts}/>}
+       <Pricing />
       <Footer/>
        <ToastContainer/>
       </>
